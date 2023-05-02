@@ -1,0 +1,6 @@
+/home/sputniktech/Documents/repos_school/myprolang/AntlrCSharp/obj/Debug/net7.0/SampleLexer.cs
+/home/sputniktech/Documents/repos_school/myprolang/AntlrCSharp/obj/Debug/net7.0/SampleParser.cs
+/home/sputniktech/Documents/repos_school/myprolang/AntlrCSharp/obj/Debug/net7.0/SampleListener.cs
+/home/sputniktech/Documents/repos_school/myprolang/AntlrCSharp/obj/Debug/net7.0/SampleBaseListener.cs
+/home/sputniktech/Documents/repos_school/myprolang/AntlrCSharp/obj/Debug/net7.0/SampleVisitor.cs
+/home/sputniktech/Documents/repos_school/myprolang/AntlrCSharp/obj/Debug/net7.0/SampleBaseVisitor.cs

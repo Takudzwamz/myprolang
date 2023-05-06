@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntlrCSharp", "AntlrCSharp\AntlrCSharp.csproj", "{7A68A583-3227-4913-81CF-94992E88DFEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntlrCSharpTests", "AntlrCSharpTests\AntlrCSharpTests.csproj", "{C6F540EA-D498-446A-B354-9CE0A00A1864}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

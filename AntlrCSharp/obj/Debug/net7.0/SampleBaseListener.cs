@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// Generated from /home/sputniktech/Documents/repos_school/myprolang/AntlrCSharp/Content/Sample.g4 by ANTLR 4.6.6
+// Generated from C:\Users\zhout\RiderProjects\myprolang\AntlrCSharp\Content\Sample.g4 by ANTLR 4.6.6
 
 // Unreachable code detected
 #pragma warning disable 0162
@@ -210,6 +210,45 @@ public partial class SampleBaseListener : ISampleListener {
 	public virtual void ExitStatement([NotNull] SampleParser.StatementContext context) { }
 
 	/// <summary>
+	/// Enter a parse tree produced by <see cref="SampleParser.forBlock"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterForBlock([NotNull] SampleParser.ForBlockContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="SampleParser.forBlock"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitForBlock([NotNull] SampleParser.ForBlockContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="SampleParser.switchBlock"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterSwitchBlock([NotNull] SampleParser.SwitchBlockContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="SampleParser.switchBlock"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitSwitchBlock([NotNull] SampleParser.SwitchBlockContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="SampleParser.switchCase"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterSwitchCase([NotNull] SampleParser.SwitchCaseContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="SampleParser.switchCase"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitSwitchCase([NotNull] SampleParser.SwitchCaseContext context) { }
+
+	/// <summary>
 	/// Enter a parse tree produced by <see cref="SampleParser.ifBlock"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
@@ -273,6 +312,32 @@ public partial class SampleBaseListener : ISampleListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	public virtual void ExitFunctionCall([NotNull] SampleParser.FunctionCallContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="SampleParser.functionDefinition"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterFunctionDefinition([NotNull] SampleParser.FunctionDefinitionContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="SampleParser.functionDefinition"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitFunctionDefinition([NotNull] SampleParser.FunctionDefinitionContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="SampleParser.parameterList"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterParameterList([NotNull] SampleParser.ParameterListContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="SampleParser.parameterList"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitParameterList([NotNull] SampleParser.ParameterListContext context) { }
 
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="SampleParser.expression"/>.

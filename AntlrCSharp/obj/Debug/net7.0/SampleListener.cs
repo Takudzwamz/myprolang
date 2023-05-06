@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// Generated from /home/sputniktech/Documents/repos_school/myprolang/AntlrCSharp/Content/Sample.g4 by ANTLR 4.6.6
+// Generated from C:\Users\zhout\RiderProjects\myprolang\AntlrCSharp\Content\Sample.g4 by ANTLR 4.6.6
 
 // Unreachable code detected
 #pragma warning disable 0162
@@ -182,6 +182,39 @@ public interface ISampleListener : IParseTreeListener {
 	void ExitStatement([NotNull] SampleParser.StatementContext context);
 
 	/// <summary>
+	/// Enter a parse tree produced by <see cref="SampleParser.forBlock"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void EnterForBlock([NotNull] SampleParser.ForBlockContext context);
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="SampleParser.forBlock"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void ExitForBlock([NotNull] SampleParser.ForBlockContext context);
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="SampleParser.switchBlock"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void EnterSwitchBlock([NotNull] SampleParser.SwitchBlockContext context);
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="SampleParser.switchBlock"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void ExitSwitchBlock([NotNull] SampleParser.SwitchBlockContext context);
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="SampleParser.switchCase"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void EnterSwitchCase([NotNull] SampleParser.SwitchCaseContext context);
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="SampleParser.switchCase"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void ExitSwitchCase([NotNull] SampleParser.SwitchCaseContext context);
+
+	/// <summary>
 	/// Enter a parse tree produced by <see cref="SampleParser.ifBlock"/>.
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
@@ -235,6 +268,28 @@ public interface ISampleListener : IParseTreeListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	void ExitFunctionCall([NotNull] SampleParser.FunctionCallContext context);
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="SampleParser.functionDefinition"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void EnterFunctionDefinition([NotNull] SampleParser.FunctionDefinitionContext context);
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="SampleParser.functionDefinition"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void ExitFunctionDefinition([NotNull] SampleParser.FunctionDefinitionContext context);
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="SampleParser.parameterList"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void EnterParameterList([NotNull] SampleParser.ParameterListContext context);
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="SampleParser.parameterList"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void ExitParameterList([NotNull] SampleParser.ParameterListContext context);
 
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="SampleParser.expression"/>.

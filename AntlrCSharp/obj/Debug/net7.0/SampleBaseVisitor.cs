@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// Generated from /home/sputniktech/Documents/repos_school/myprolang/AntlrCSharp/Content/Sample.g4 by ANTLR 4.6.6
+// Generated from C:\Users\zhout\RiderProjects\myprolang\AntlrCSharp\Content\Sample.g4 by ANTLR 4.6.6
 
 // Unreachable code detected
 #pragma warning disable 0162
@@ -176,6 +176,39 @@ public partial class SampleBaseVisitor<Result> : AbstractParseTreeVisitor<Result
 	public virtual Result VisitStatement([NotNull] SampleParser.StatementContext context) { return VisitChildren(context); }
 
 	/// <summary>
+	/// Visit a parse tree produced by <see cref="SampleParser.forBlock"/>.
+	/// <para>
+	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
+	/// on <paramref name="context"/>.
+	/// </para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	public virtual Result VisitForBlock([NotNull] SampleParser.ForBlockContext context) { return VisitChildren(context); }
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="SampleParser.switchBlock"/>.
+	/// <para>
+	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
+	/// on <paramref name="context"/>.
+	/// </para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	public virtual Result VisitSwitchBlock([NotNull] SampleParser.SwitchBlockContext context) { return VisitChildren(context); }
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="SampleParser.switchCase"/>.
+	/// <para>
+	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
+	/// on <paramref name="context"/>.
+	/// </para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	public virtual Result VisitSwitchCase([NotNull] SampleParser.SwitchCaseContext context) { return VisitChildren(context); }
+
+	/// <summary>
 	/// Visit a parse tree produced by <see cref="SampleParser.ifBlock"/>.
 	/// <para>
 	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
@@ -229,6 +262,28 @@ public partial class SampleBaseVisitor<Result> : AbstractParseTreeVisitor<Result
 	/// <param name="context">The parse tree.</param>
 	/// <return>The visitor result.</return>
 	public virtual Result VisitFunctionCall([NotNull] SampleParser.FunctionCallContext context) { return VisitChildren(context); }
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="SampleParser.functionDefinition"/>.
+	/// <para>
+	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
+	/// on <paramref name="context"/>.
+	/// </para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	public virtual Result VisitFunctionDefinition([NotNull] SampleParser.FunctionDefinitionContext context) { return VisitChildren(context); }
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="SampleParser.parameterList"/>.
+	/// <para>
+	/// The default implementation returns the result of calling <see cref="AbstractParseTreeVisitor{Result}.VisitChildren(IRuleNode)"/>
+	/// on <paramref name="context"/>.
+	/// </para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	public virtual Result VisitParameterList([NotNull] SampleParser.ParameterListContext context) { return VisitChildren(context); }
 
 	/// <summary>
 	/// Visit a parse tree produced by <see cref="SampleParser.expression"/>.

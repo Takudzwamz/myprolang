@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// Generated from /home/sputniktech/Documents/repos_school/myprolang/AntlrCSharp/Content/Sample.g4 by ANTLR 4.6.6
+// Generated from C:\Users\zhout\RiderProjects\myprolang\AntlrCSharp\Content\Sample.g4 by ANTLR 4.6.6
 
 // Unreachable code detected
 #pragma warning disable 0162
@@ -126,6 +126,27 @@ public interface ISampleVisitor<Result> : IParseTreeVisitor<Result> {
 	Result VisitStatement([NotNull] SampleParser.StatementContext context);
 
 	/// <summary>
+	/// Visit a parse tree produced by <see cref="SampleParser.forBlock"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitForBlock([NotNull] SampleParser.ForBlockContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="SampleParser.switchBlock"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitSwitchBlock([NotNull] SampleParser.SwitchBlockContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="SampleParser.switchCase"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitSwitchCase([NotNull] SampleParser.SwitchCaseContext context);
+
+	/// <summary>
 	/// Visit a parse tree produced by <see cref="SampleParser.ifBlock"/>.
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
@@ -159,6 +180,20 @@ public interface ISampleVisitor<Result> : IParseTreeVisitor<Result> {
 	/// <param name="context">The parse tree.</param>
 	/// <return>The visitor result.</return>
 	Result VisitFunctionCall([NotNull] SampleParser.FunctionCallContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="SampleParser.functionDefinition"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitFunctionDefinition([NotNull] SampleParser.FunctionDefinitionContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="SampleParser.parameterList"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitParameterList([NotNull] SampleParser.ParameterListContext context);
 
 	/// <summary>
 	/// Visit a parse tree produced by <see cref="SampleParser.expression"/>.

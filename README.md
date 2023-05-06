@@ -1,4 +1,4 @@
-# My own scripting language
+# My own custom language
 
 ## Idea for this custom language
 #### The idea for this language is to be able to write a language that's easy to learn, use and and highly customizable . 

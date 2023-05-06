@@ -8,7 +8,7 @@
 #### I hope to continue working on this project in the future and make it better as I have my own Tech Startup company (https://sputniktech.co) which I hope will be bigger in the future on the African continent and possibly globally.
 #### So seeing Big Tech companies like Google, Facebook, Microsoft, Apple and Amazon having their own programming languages. I hope to improve from what I've learned here and have a custom programming language for future big Sputnik Tech .
 
-## How to use the language
+## How to test the language
 #### The file extension for the language so far is .ss , it can change in the future.
 #### To run this project I've created three test files which are: test.ss, test2.ss and testfunction.ss
 #### Just `cd` into the AntlrCSharp directory and run `dotnet run` command in the terminal and the program will run the test.ss file, 
